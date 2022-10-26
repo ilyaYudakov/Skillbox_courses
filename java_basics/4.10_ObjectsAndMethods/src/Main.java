@@ -11,5 +11,10 @@ public class Main {
         System.out.printf("Общий вес - %.2f", basket.getTotalWeight());
 
 //        Arithmetic arithmetic = new Arithmetic(2, 3);
+
+        System.out.println(basket.getAllBasketsPrice());
+        System.out.println(basket.getAveragePriceOfBasket());
+        System.out.println(basket.getAveragePriceOfProduct());
+        System.out.println(basket.getBasketsCount());
     }
 }
