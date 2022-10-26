@@ -18,5 +18,13 @@ public class Main {
 //        HomeWork #2
 
 
+        Dimensions dimensions = new Dimensions(200, 300, 1000);
+
+        Order moscowOrder = new Order(dimensions, 20, "Moscow", false, "22-fa-45", true);
+        Order order = moscowOrder.setMass(200);
+
+        System.out.println(moscowOrder == order);
+        System.out.println(moscowOrder.equals(order));
+
     }
 }
